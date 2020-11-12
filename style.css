@@ -1,0 +1,87 @@
+.background{
+    background-image: url(images/background_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#navbar11 .nav-link {
+    border-radius: 0.25rem;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+  .upsidedown{
+    writing-mode: vertical-rl;
+text-orientation: mixed;
+
+}
+.jumbotron{
+    padding-top: 70px;;
+}
+#cards1{
+    background-color: #f8f9fa;
+}
+footer{
+    background-color: #f8f9fa;
+}
+#form1{
+    background-color: #f8f9fa;
+}
+form-control{
+    background-color:#f8f9fa ;
+}
+
+.borderself{
+    text-align: center;
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    margin: center;
+    margin-left:110px ;
+    border: rounded-circle;
+    
+}
+#serviceh2 h2{
+    border: 2px solid rgb(231, 84, 40); border-radius: 50% ; height: 80px ;width: 80px ; margin-left: 35%;
+    padding-top: 15px;
+    font-weight: bold;
+    color:red;
+}
+.testinomial row{
+    margin-top: 30px;
+}
+#profileset col-md-6{
+   margin: 0px auto;
+}
+.profile{
+    background-color: #f8f9fa;
+    padding: 60px 60px 10px;
+}
+.profile img{
+    left: -50px;
+    position:absolute;
+    right: calc(50% -60px);
+
+    border: 3px solid red;
+}
+.user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#vertical{
+    color: red;
+}
+#form1{
+    background-color: #f8f9fa;
+}
+#blogcontent{
+     width: 90%;
+   background-color: white;
+    margin-left: 26px;
+    margin-top: -50px;
+    box-shadow: 5px 10px #888888;
+}
+.form-control{
+    background-color: #f8f9fa;
+}
