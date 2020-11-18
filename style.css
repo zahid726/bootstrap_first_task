@@ -4,17 +4,7 @@
     background-size: cover;
     
 }
-#navbar11 .nav-link {
-    border-radius: 0.25rem;
-    font-size: 15px;
-    color: black;
-    font-weight: bold;
-}
-  .upsidedown{
-    writing-mode: vertical-rl;
-text-orientation: mixed;
 
-}
 .jumbotron{
     padding-top: 70px;;
 }
@@ -51,18 +41,20 @@ form-control{
     margin-top: 30px;
 }
 #profileset col-md-6{
-   margin: 0px auto;
+   margin: 3px auto;
 }
 .profile{
     background-color: #f8f9fa;
     padding: 60px 60px 10px;
+    
 }
 .profile img{
-    left: -50px;
+    left: -30px;
+    top: 35%;
     position:absolute;
-    right: calc(50% -60px);
+    right: calc(40% -60px);
 
-    border: 3px solid red;
+    border: 2px solid red;
 }
 .user{
     width: 100px;
@@ -80,8 +72,13 @@ form-control{
    background-color: white;
     margin-left: 26px;
     margin-top: -50px;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 2px 5px #888888;
 }
 .form-control{
     background-color: #f8f9fa;
+}
+#blog-image :hover{
+    background-color: aqua;
+    color: red;
+
 }
