@@ -1,3 +1,5 @@
+
+
 .background{
     background-image: url(images/background_image.jpg);
     background-repeat: no-repeat;
@@ -72,7 +74,9 @@ form-control{
    background-color: white;
     margin-left: 26px;
     margin-top: -50px;
-    box-shadow: 2px 5px #888888;
+    /* border: 20px shadow black ; */
+    /* box-shadow: 2px 5px #888888; */
+    box-shadow: 15px 5px 20px 2px rgba(0, 0, 0, 0.5);
 }
 .form-control{
     background-color: #f8f9fa;
@@ -82,3 +86,82 @@ form-control{
     color: red;
 
 }
+#topnav li{
+    margin: 10px;
+    display: inline;
+}
+
+#cardbody{
+    margin: 5px;
+}
+  
+@media screen  and (max-width: 575px) {
+    #topnav{
+      box-sizing: border-box;
+      flex-direction: row;
+      letter-spacing: 25px;
+    }
+   
+
+}
+
+@media screen and (max-width:768px){
+    #timelinecol{
+       
+        margin-top: 5%;
+    }
+}
+#cardBody{
+    /* padding: 20px; */
+    box-sizing: border-box;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+}
+.card-body{
+    padding: 0;
+    margin: 0;
+}
+
+
+#aboutMe img{
+    vertical-align: left;
+}
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 10 auto;
+  }
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: rgb(221, 23, 23);
+    top: 0px;
+    bottom: -16px;
+    left: 10px;
+    margin-left: 0px;
+
+  }
+
+  .container1{
+    padding: 0px 30px ;
+   
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+    margin-left: 10px;
+    
+  }
+  .container1::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -10px;
+    background-color: rgb(247, 242, 242);
+    border: 4px solid #e7343d;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
